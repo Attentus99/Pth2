@@ -2,9 +2,10 @@
     word_count = 0
 
     for line in file:
-        line = line.strip()        # usuń białe znaki
-        if line:                   # ignoruj puste linie
-            words = line.split()   # podziel linię na słowa
+        line = line.strip()      
+        if line:                  
+            words = line.split()   
             word_count += len(words)
 
 print(f"Liczba słów: {word_count}")
+
